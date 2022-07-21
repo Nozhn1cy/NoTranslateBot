@@ -1,7 +1,7 @@
 import telebot
 from translate import translate_sentence
 
-token = '5426010601:AAH6_TGZkDp8hjtIKlABjr1U0WnpBfEdm20'
+token = 'token'
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start'])
